@@ -10,7 +10,7 @@ with st.sidebar:
                                 df['年代'].unique())
     sex = st.multiselect('男女を指定してください', 
                             df['男女'].unique())
-    option = st.radio('表示形式を選択してください',
+    option = st.segmented_control('表示形式を選択してください',
                   ['表', 'グラフ'])
 df = df[df['年代'].isin(branch)]
 df = df[df['男女'].isin(sex)]
