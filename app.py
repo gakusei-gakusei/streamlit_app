@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.subheader("男女別年齢別人口", divider="gray")
-st.write('年代ごとの男女別年齢別の人口を表示します。')
+st.write('年代（年）ごとの男女別年齢（歳）別の人口（人）を表示します。')
 df = pd.read_csv('人口ピラミッド_全国（日本）_1920年.csv')
 with st.sidebar:
     branch = st.multiselect('年代を選択してください（複数選択可）',
