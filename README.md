@@ -7,3 +7,4 @@
 特記事項：年代ごとに別のデータとなっていたため、各csvファイルを統合、また一部加工。
 未使用UI部品の利用：badge（表やグラフが表示されているか確認できるようにそれぞれの場所で使った）、subheader（titleよりも視認性が上がるのではないかと思い最上部で使った）、segmented_control（radioよりも視認性が上がるのではないかと思いサイドバー内で使った）
 参考：Stock peer analysis（https://demo-stockpeers.streamlit.app/?ref=streamlit-io-gallery-favorites&stocks=AAPL%2CMSFT%2CGOOGL%2CNVDA%2CAMZN%2CTSLA%2CMETA ）、グラフの見せ方がきれいだと思いグラフのサイズを固定してみた。
+※requirements.txt内のstreamlitのバージョンを1.32.2から1.53.1に変更しました。
