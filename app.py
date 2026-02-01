@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import plotly.express as px
 
 st.subheader("男女別年齢別人口", divider="gray")
 st.write('年代（年）ごとの男女別年齢（歳）別の人口（人）を表示します。')
